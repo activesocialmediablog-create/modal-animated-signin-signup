@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Modal Login and sign up Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https:// fonts.googleapis.com/css?family=Poppins">
+    
+</head>
+
+<body>
+<h1>Animated Modal Login / Sign Up Form</h1>
+
+<!-- Trigger/Open The Modal -->
+
+  <button id="myBtn" class="mainBtn">Login / Sign up Modal Form</button>
+  
+  <!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+     <div class="container">
+    <div class="form-box">
+      <span class="close">&times;</span>
+      <h1 class="title">Sign Up</h1>
+      <div class="underline"></div>
+      <form>
+        <div class="input-group">
+          <div class="input-field namefield">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Jhon Doe" >
+          </div>
+          <!--end input field-->
+          <div class="input-field">
+            <i class="fa-solid fa-at"></i>
+            <input type="email" placeholder="johndoe@gmail.com">
+          </div>
+          <!--end input field-->
+          <div class="input-field">
+            <i class="fa-solid fa-key"></i>
+            <input type="password" placeholder="Password">
+          </div>
+          <!--end input field-->
+          <p> <span class="text"> Password suggestions</span><a href="#"> Click Here!</a></p>
+        </div>
+        <!--end input group-->
+
+        <div class="btn-field">
+          <button type="button" class="signupbtn">Sign up</button>
+          <button type="button" class="disable signinbtn">Sign in</button>
+        </div>
+        <!--End btn feild-->
+    </div>
+    </form>
+    <!--End Form -->
+
+  </div> <!--end form box-->
+  </div> <!--end container-->
+  </div>
+  
+  </div>
+  
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
